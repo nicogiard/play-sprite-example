@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.pagination {
+	font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+	margin: 10px;
+	height: 26px;
+}
+.pagination a, .pagination span {
+	color: white;
+	display: block;
+	float: left;
+	height: 24px;
+	padding-top: 5px;
+	text-align:center;
+	text-decoration: none;
+}
+.pagination a.previous {
+	background: white url('/public/images/previous.png') no-repeat left top;
+	height:19px;
+	padding: 5px 10px 0 10px;
+}
+.pagination span.previousInactive{
+	background: white url('/public/images/previousInactive.png') no-repeat left top;
+	height:19px;
+	padding: 5px 10px 0 10px;
+}
+.pagination span.current {
+	background: white url("/public/images/current.png") no-repeat left top;
+	padding-left: 2px;
+	width: 25px;
+}
+.pagination span.lastCurrent {
+	width: 26px;
+}
+.pagination a.number {
+	background: white url(/public/images/number.png) no-repeat left top;
+	width: 25px;
+}
+.pagination a.lastNumber {
+	background: white url(/public/images/lastNumber.png) no-repeat left top;
+	width: 27px;
+}
+.pagination span.inactive {
+	background: white url(/public/images/inactive.png) no-repeat left top;
+	padding-left: 2px;
+	width: 23px;
+}
+.pagination a.next {
+	background: white url(/public/images/next.png) no-repeat right top;
+	height:19px;
+	padding: 5px 10px 0 10px;
+}
+.pagination span.nextInactive {
+	background: white url(/public/images/nextInactive.png) no-repeat right top;
+	height:19px;
+	padding: 5px 10px 0 10px;
+}

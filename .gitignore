@@ -1,0 +1,12 @@
+# Les ligne commençant par '#' sont des commentaires.
+
+.classpath
+.project
+.settings
+.svn
+db/
+eclipse/
+logs/
+tmp/
+/public/images/play-sprite.png
+/public/stylesheets/play-sprite.css
